@@ -21,6 +21,11 @@ public class Program {
 
         for (Pet pet: pets){
             pet.speak();
+
+            if(pet instanceof Bird bird){
+//                Bird bird = (Bird) pet;
+                bird.fly();
+            }
         }
 
 
