@@ -9,13 +9,15 @@ public class Program {
 //        animal.bark(); doesn't work
 //        animal.meow(); doesn't work
 //
-        Dog dog = new Dog();
+        Dog dog = new Dog("Leo", "tan", "Cavipoo");
         dog.setName("Leo");
         System.out.println(dog.getName());
-        dog.bark();
+//        dog.bark();
 
         Cat cat = new Cat();
-        cat.meow();
+        cat.setName("P Kitty");
+        System.out.println(cat.getName());
+//        cat.meow();
 
 
 

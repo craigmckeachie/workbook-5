@@ -4,6 +4,14 @@ public class Animal {
     private String name;
     private String color;
 
+    public Animal(){}
+
+    public Animal(String name, String color) {
+        System.out.println("I'm not called");
+        this.name = name;
+        this.color = color;
+    }
+
     public String getName() {
         return name;
     }

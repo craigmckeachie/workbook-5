@@ -3,8 +3,10 @@ package com.pluralsight;
 public class Dog extends Animal {
     private String breed;
 
-
-
+    public Dog(String name, String color, String breed) {
+        super(name, color);
+        this.breed = breed;
+    }
 
     public String getBreed() {
         return breed;
