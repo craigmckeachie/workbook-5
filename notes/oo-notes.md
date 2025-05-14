@@ -43,7 +43,7 @@
 Poly- many
 morph- change form
 
-You are holding
+Allows objects of different types to be treated as objects of a common super type. It literally means "many forms."
 
 ### Method Overriding
 
@@ -54,6 +54,8 @@ You are holding
 ### Method Overloading
 
 - Determines which method of the same name to use based on the number and type of parameters
+
+
 
 ---
 
