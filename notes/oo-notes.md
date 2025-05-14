@@ -25,14 +25,14 @@
       - Hovercraft
   - instanceof: allows us to check the data type of the class, so we can use it appropriately (don't make Grandma sprint)
 
-    ###  Constructors
+    ### Constructors
 
     - if you don't declare any constructors
-    - one will be created for you
-    - it will be parameterless (nothing passed into the constructor method)
-    - it will call `super()` for you
+      - one will be created for you
+      - it will be parameterless (nothing passed into the constructor method)
+      - it will call `super()` for you
     - if you write your own constructor(s)
-    - the generated default constructor is no longer there, you need to explicitly create it the parameterless constructor if you want one
+      - the generated default constructor is no longer there, you need to explicitly create it the parameterless constructor if you want one
         - it will call `super()` for you
         - you should call `super()` in the first line before doing anything else
         - `super` can be called with any parameters (parameterless)
