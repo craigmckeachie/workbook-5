@@ -32,11 +32,28 @@
       - it will be parameterless (nothing passed into the constructor method)
       - it will call `super()` for you
     - if you write your own constructor(s)
-      - the generated default constructor is no longer there, you need to explicitly create it the parameterless constructor if you want one
+      - the generated default constructor is no longer there, you need to explicitly create the parameterless constructor if you want one
         - it will call `super()` for you
         - you should call `super()` in the first line before doing anything else
         - `super` can be called with any parameters (parameterless)
         - `super` can also call a parameterized constructor in the base class
+
+## Polymorphism
+
+Poly- many
+morph- change form
+
+You are holding
+
+### Method Overriding
+
+- You are defining a method in a base/parent class and then overriding it's implementation in the sub/child class.
+- You're choosing the method in the subclass over a method of the same name in the superclass
+  - the methods need to have a matching number and data type of parameters for the override to work
+
+### Method Overloading
+
+- Determines which method of the same name to use based on the number and type of parameters
 
 ---
 
@@ -122,21 +139,5 @@ Cat named Whiskers created
 
 ---
 
-Let me know if you'd like an illustration or diagram to go with this explanation in a handout-style format!
 
-## Polymorphism
 
-Poly- many
-morph- change form
-
-You are holding
-
-### Method Overriding
-
-- You are defining a method in a base/parent class and then overriding it's implementation in the sub/child class.
-- You're choosing the method in the subclass over a method of the same name in the superclass
-  - the methods need to have a matching number and data type of parameters for the override to work
-
-### Method Overloading
-
-- Determines which method of the same name to use based on the number and type of parameters
