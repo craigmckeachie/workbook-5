@@ -33,7 +33,6 @@
       - it will call `super()` for you
     - if you write your own constructor(s)
       - the generated default constructor is no longer there, you need to explicitly create the parameterless constructor if you want one
-        - it will call `super()` for you
         - you should call `super()` in the first line before doing anything else
         - `super` can be called with any parameters (parameterless)
         - `super` can also call a parameterized constructor in the base class
