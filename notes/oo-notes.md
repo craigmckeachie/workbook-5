@@ -52,9 +52,6 @@ Allows objects of different types to be treated as objects of a common super typ
 
 ### Method Overloading
 
-- Determines which method of the same name to use based on the number and type of parameters
-
-
+- Determines which method of the same name to call based on the number and data type of parameters
 
 ---
-
