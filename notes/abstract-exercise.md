@@ -2,7 +2,7 @@
 2. Run the command:
 
 ```
-git clone https://github.com/annaharbour/workbook-5 abstract
+git clone https://github.com/craigmckeachie/workbook-5/ abstract
 ```
 
 3. In IntelliJ open the project: `pluralsight/abstract/AssetManager`
