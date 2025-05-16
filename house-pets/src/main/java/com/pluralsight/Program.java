@@ -7,6 +7,7 @@ public class Program {
     public static void main(String[] args) {
         ArrayList<Pet> pets = new ArrayList<>();
 
+
         Pet pet1 = new Dog();
         Pet pet2 = new Cat();
         Pet pet3 = new Bird();

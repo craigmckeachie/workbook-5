@@ -1,12 +1,17 @@
 ## Topics to Review
 
 - [ ] Putting it all together
-- [ ] Comments in Code
-- [ ] Git branches
-- [ ] Class Design Diagram (Super class)
-- [x] Issue Tracker (breaking down the problem)
+  - [x] Issue Tracker (breaking down the problem)
+  - [x] Pseudo-code
+  - [ ] Class Design Diagram (Super class)
+
 - [x] Project Layout Conventions
+- [ ] Git branches
 
 ## Tasks
 
 - [ ] Remaining weeks outline
+
+
+
+        
