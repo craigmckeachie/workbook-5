@@ -12,6 +12,7 @@ import java.util.List;
 public class AssetManagerApp {
     public static void main(String[] args) {
         List<Asset> assets = new ArrayList<>();
+//        Asset genericAsset = new Asset("generic asset", LocalDateTime.now(), new BigDecimal(1_000_000));
         Asset house = new House(
                 "Beautiful family home",
                 LocalDateTime.now(),

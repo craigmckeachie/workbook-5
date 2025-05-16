@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 public class Vehicle extends Asset {
+    private String description;
     private String makeModel;
     private int year;
     private int odometer;

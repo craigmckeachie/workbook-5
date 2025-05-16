@@ -3,7 +3,7 @@ package com.pluralsight.models;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-public abstract class Asset {
+public abstract  class Asset {
     private String description;
     private LocalDateTime dateAcquired;
     private BigDecimal originalCost;
@@ -38,5 +38,5 @@ public abstract class Asset {
         this.originalCost = originalCost;
     }
 
-    abstract public BigDecimal getValue();
+    public abstract BigDecimal getValue();
 }
