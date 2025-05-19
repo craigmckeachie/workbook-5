@@ -22,6 +22,18 @@ public class Program {
         System.out.println(burger.getSize());
 
 
+        burger.setBunType("Sesame");
+        String bunType = burger.getBunType();
+        System.out.println(bunType);
+
+//        MenuItem item = new MenuItem()
+
+         Burger burger1 = new Burger(10, "Pretzel Bun Burger", "L", "Sesame");
+
+
+
+
+
 
     }
 }

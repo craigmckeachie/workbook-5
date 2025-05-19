@@ -4,8 +4,16 @@ public class MenuItem {
     private double price = 0;
     private String description;
     private String size;
-    //size
-    //calories
+
+    public MenuItem(){
+
+    }
+
+    public MenuItem(double price, String description, String size) {
+        this.price = price;
+        this.description = description;
+        this.size = size;
+    }
 
     public double getPrice() {
         return price;
